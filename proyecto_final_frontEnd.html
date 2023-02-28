@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="icon" type="image/x-icon" href="https://www.w3schools.com/images/favicon.ico">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Proyecto Final" />
+    <meta property="og:type" content="Trabajo Practico" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" http://example.com/image.jpg" />
+    <meta property="og:description" content="Consiste en elaborar un curriculum Vitae" />
+     
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
+ 
+</head>
+<body> 
+
+   
+    <header>
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <img src="https://randomuser.me/api/portraits/men/22.jpg" width="150" height="150" 
+                alt="foto perfil profesional">
+                <h1>Charlie Fowler</h1>
+                              
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn"> 
+                    <img src="https://www.freeiconspng.com/thumbs/address-icon/address-book-icon--mono-business-icons-2--softiconsm-7.png"width="25" height="25">                 
+                    Contacto </button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <h3 href="#contacto"> Contacto
+                      <div class="container text-center">
+                      <div class="row align-items-end">
+                        <div class="col">
+                          <ul>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="brown" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                            </svg>
+                            <li>Domicilio: 3963 Mockingbird Ln</li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="brown" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                              <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+                              <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+                            </svg>
+                            <li>email: charlie.fowler@example.com</li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="brown" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                              <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                            </svg>
+                            <li>Teléfono:(206) 959-9063</li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="brown" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                              <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                              <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            <li>Cumpleaños: 8/6/1986</li>                  
+                          </ul>
+                        </div>            
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <script src= "js/function.js"> 
+                  
+                </script>               
+                                             
+              </div>
+              <div class="col">
+                <h2>Arquitecto</h2>
+                <h3>Especialista en Desarrollos web</h3>
+              </div>          
+                             
+                <h2>Perfil Profesional</h2>
+                <ul><li>Edad: 37</li>
+                    <li>Nacionalidad: Argentina</li>
+                    <li>Lugar de Nacimiento: Santa Fe</li>
+                    <li>Idioma: Inglés nivel básico</li>               
+              </div>
+            </div>
+          </div>
+    </header>
+    <section>
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col">
+                <h2> Habilidades</h2>
+                <ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nullam mattis nibh et tempus pulvinar.</li>
+                    <li>Donec sit amet est dapibus, mattis orci quis, tincidunt diam.</li>
+                    <li>Donec condimentum justo eu neque euismod maximus.</li>
+                </ul>
+              </div>
+              <div class="col">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li class="clase">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li> 
+                    <li>Maecenas a felis blandit massa faucibus iaculis.</li>
+                    <li class="clase">Nam ullamcorper felis quis feugiat blandit.</li>
+                    <li>Sed sed purus eget turpis ornare sodales.</li>
+                </ul>
+              </div>
+             </div>
+          </div>
+    </section>
+    <section>
+        <div class="container text-center">
+            <div class="row align-items-end">
+              <div class="col">
+                <h2>Algunos Proyectos</h2>
+                <img src="http://www.ucongreso.edu.ar/wp-content/uploads/2017/08/la-arquitectura-1.jpg"class="img-fluid" alt="imagen de un proyecto de arquitectura">
+                <img src="https://th.bing.com/th/id/R.c9550a370be9aa5bbd63ec39c4b3327b?rik=VVuz1O6DN%2fBXcw&amp;riu=http%3a%2f%2f2.bp.blogspot.com%2f-qeVwEPJ_SF0%2fU0UAZ3eCsjI%2fAAAAAAAADIY%2ffj5OoIyI1iw%2fs1600%2farquitectura_dibujo_11_by_jujo.jpg&amp;ehk=QHhpIQ1zmTvvwMEKogQwJH7DU5Lh8vlj8QsY4C5NdFI%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0"class="img-fluid" alt="arquitectura-dibujo 10 by jujo on DeviantArt" >
+                <img src="https://th.bing.com/th/id/R.89c2283d61de75bda76c2b37be6069cc?rik=l%2fj5JsemTPhISg&amp;pid=ImgRaw&amp;r=0" class=" img-fluid"alt="Pin en Dibujos arquitectónicos" >
+              </div>            
+            </div>
+          </div>
+
+    </section>
+    <footer>
+             
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <script> src= "js/function.js"</script>
+</body>
+</html>
